@@ -7,6 +7,8 @@ app = Flask(__name__)
 def hello():
     return "to be or not to be"
 
+@app.route("/chow")
+	return "xin choi"
 
 if __name__ == "__main__":
     app.run()
